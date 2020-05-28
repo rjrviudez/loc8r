@@ -1,0 +1,34 @@
+Archivo de ayuda
+crear proyecto de Git
+git init
+git add .
+git commit -m "comentario inicial"
+Inmediatamente despues para crear el proyecto en Heroku
+heroku create
+debe salir algo como asi:
+http://shrouded-tor-1673.herokuapp.com/ | git@heroku.com:shrouded-tor-
+1673.git
+Git remote heroku added
+
+Para actualizar primero actualizar git
+-------------------------------------------------------------------------
+Para este proyecto hay que tomar el siguiente repositorio
+
+ https://git.heroku.com/guarded-earth-13397.git master
+------------------------------------------------------------------------
+
+git add .
+git commit -m "hacer un comentario cada vez que se hace esto"
+git push <el nombre del repositorio completo con hhttp y todo> master
+
+Despues para iniciar la aplicacion 
+
+heroku ps:scale web =1     -- el terminal responde:
+
+Scaling web dynos... done, now running 1
+
+para abrir la aplicacion
+
+heroku open
+
+--se abre sola en el buscador--
